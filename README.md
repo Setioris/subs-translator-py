@@ -31,3 +31,13 @@ source translator_env/bin/activate
 
 # Install Python packages
 pip install torch transformers tqdm srt pysubs2
+```
+### Windows
+```bash
+# Create virtual environment
+python -m venv translator_env
+translator_env\Scripts\Activate.ps1
+
+# Install Python packages
+pip install torch transformers tqdm srt pysubs2
+```
