@@ -65,8 +65,8 @@ source .venv/bin/activate  # Linux/macOS
 # .venv\Scripts\activate   # Windows
 ```
 ```bash
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
-CPU: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip3 install torch torchvision torchaudio
 pip install transformers tqdm srt pysubs2
 ```
 
