@@ -100,14 +100,11 @@ iconv -f ORIGINAL_ENCODING -t UTF-8 input.srt > fixed.srt
 # Commands:
 
 ```bash
-python subtitle_translator.py [INPUT_FILE] --source [SOURCE_LANG] --target [TARGET_LANG]
-
-python subtitle_translator.py movie.srt --source en --target ro
-
-python subtitle_translator.py anime.ass --source ja --target ro --model-size 3.3B
-
-python subtitle_translator.py french_movie.srt --source fr --target en --device cuda
 
 python subtitle_translator.py --list-languages
 
 ```
+
+# ❤️ Thanks alot:
+- [huggingface.co](https://huggingface.co/facebook/nllb-200-distilled-600M)
+- [facebookresearch TEAM](https://github.com/facebookresearch/fairseq)
