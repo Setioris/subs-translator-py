@@ -74,6 +74,14 @@ pip install transformers tqdm srt pysubs2
 Model Loading Issues:
 
 ```bash
+
+First-of all Try this:
+
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-18 02:28:52,075 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+
+just use: pip install hf_xet
+
 # Clear Hugging Face cache
 rm -r ~/.cache/huggingface
 
