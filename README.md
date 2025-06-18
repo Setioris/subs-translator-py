@@ -71,6 +71,7 @@ rmdir /s /q whisper_env
 ```bash
 pip install -U torch transformers huggingface-hub tqdm srt pysubs2 psutil
 pip install hf_xet
+pip install --upgrade transformers
 ```
 # Test
 ```bash
