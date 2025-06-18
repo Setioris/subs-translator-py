@@ -67,9 +67,12 @@ source .venv/bin/activate  # Linux/macOS
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip3 install torch torchvision torchaudio
-pip install transformers tqdm srt pysubs2
+pip install torch transformers tqdm srt pysubs2 psutil
 ```
-
+# Test
+```bash
+python -c "import torch; print(f'PyTorch: {torch.__version__}\nCUDA: {torch.cuda.is_available()}'); from transformers import __version__; print(f'Transformers: {__version__}')"
+```
 # 🛠 Troubleshooting
 Model Loading Issues:
 
