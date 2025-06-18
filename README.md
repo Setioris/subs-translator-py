@@ -57,11 +57,15 @@ brew install ffmpeg
 choco install ffmpeg or [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) | [Tutorial](https://www.youtube.com/watch?v=6sim9aF3g2c)
 ```
 
-# Create and activate virtual environment
+# Create and activate virtual environment - delete
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 # venv\Scripts\activate   # Windows
+deactivate
+cd ...
+rmdir /s /q whisper_env
+
 ```
 
 ```bash
