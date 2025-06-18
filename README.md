@@ -49,7 +49,7 @@ A high-performance subtitle translation tool using Facebook's NLLB (No Language 
 ```bash
 # Install FFmpeg (Ubuntu/Debian)
 sudo apt update && sudo apt install ffmpeg
-
+```
 # Install FFmpeg (macOS)
 brew install ffmpeg
 ```
@@ -57,13 +57,13 @@ brew install ffmpeg
 choco install ffmpeg or [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) | [Tutorial](https://www.youtube.com/watch?v=6sim9aF3g2c)
 ```
 
-# Create Virtual Environment
-```bash
 # Create and activate virtual environment
+```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 # .venv\Scripts\activate   # Windows
 ```
+
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip3 install torch torchvision torchaudio
