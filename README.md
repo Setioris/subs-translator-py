@@ -101,6 +101,11 @@ iconv -f ORIGINAL_ENCODING -t UTF-8 input.srt > fixed.srt
 
 ```bash
 
+python subtitle_translator.py english_sub.srt \
+    --source en --target ro \
+    --model-size 600M \
+    --quality balanced
+
 python subtitle_translator.py --list-languages
 
 ```
