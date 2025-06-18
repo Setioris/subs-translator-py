@@ -61,7 +61,7 @@ choco install ffmpeg or [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) | [Tutoria
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
-# .venv\Scripts\activate   # Windows
+# venv\Scripts\activate   # Windows
 ```
 
 ```bash
